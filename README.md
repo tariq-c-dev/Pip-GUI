@@ -10,4 +10,6 @@ How to install: Download the code for your system (Windows or Mac and Linux), th
 
 Despite how this is targeted at novice and Windows users, "double-clickable" binary versions are not available yet. Not to worry, they will be coming soon!
 
+For your information: Pip GUI will install additional dependcies tkinter and pypisearch for interface and search functionality.
+
 Enjoy this software
