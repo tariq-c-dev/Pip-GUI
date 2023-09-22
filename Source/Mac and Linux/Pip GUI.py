@@ -59,7 +59,7 @@ def open_about():
     about_text = ttk.Label(about_window, text="Pip GUI is a graphical interface for using pip.")
     label2 = ttk.Label(about_window, text="Pip GUI is open source and available on Github.")
     label3 = ttk.Label(about_window, text=" Pip GUI was made using Python, Pip, Tkinter, and Pypisearch.\n Thanks to ChatGPT 3 for generating parts of this code and fixing some bugs.\n", justify="center")
-    label4 = ttk.Label(about_window, text="Useful for novice users, Windows users, and anyone who wants an easier way to interact with pip")
+    label4 = ttk.Label(about_window, text="Useful for novice users, Windows users, and anyone who wants an easier way to interact with pip.")
     title_widget.pack()
     about_text.pack()
     label4.pack()
