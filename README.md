@@ -13,6 +13,6 @@ Despite how this is targeted at novice and Windows users, "double-clickable" bin
 
 Keep in mind: Pip GUI will install additional dependencies tkinter and pypisearch for interface and search functionality, additional disk space may be required.
 
-There is no such thing as bug-free software; if you encounter errors please report them in issues.
+There is no such thing as bug-free software; if you encounter errors please report them in issues (the more details the better).
 
 Enjoy this software
