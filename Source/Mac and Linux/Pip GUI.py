@@ -4,9 +4,6 @@ os.system("python3 -m pip install pypisearch")
 import tkinter as tk
 from tkinter import ttk
 import subprocess
-import site
-site.addsitedir('/System/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9')
-
 
 def execute_pip_command(command):
     try:
@@ -61,8 +58,8 @@ def open_about():
     title_widget = ttk.Label(about_window, text="About Pip GUI\n", font=("Arial", 18))
     about_text = ttk.Label(about_window, text="Pip GUI is a graphical interface for using pip.")
     label2 = ttk.Label(about_window, text="Pip GUI is free software available on Github.")
-    label3 = ttk.Label(about_window, text=" Pip GUI was made using Python, Pip, Tkinter, and Pypisearch.\n The binaries were packaged using Pyinstaller with auto-py-to-exe.\n Thanks to ChatGPT for generating parts of this code and fixing some bugs.\n", justify="center")
-    label4 = ttk.Label(about_window, text="Useful for novice users, Windows users, and anyone who wants an easier way to install modules")
+    label3 = ttk.Label(about_window, text=" Pip GUI was made using Python, Pip, Tkinter, and Pypisearch.\n Thanks to ChatGPT 3 for generating parts of this code and fixing some bugs.\n", justify="center")
+    label4 = ttk.Label(about_window, text="Useful for novice users, Windows users, and anyone who wants an easier way to interact with pip")
     title_widget.pack()
     about_text.pack()
     label4.pack()
