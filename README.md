@@ -5,6 +5,7 @@ Are you someone new to Python? New to command line? Windows user? Or anyone who 
 The solution is only a few clicks away, with Pip GUI.
 
 YOU WILL NEED PYTHON 3 AND PIP ALREADY INSTALLED TO USE PIP GUI
+
 Visit [Python.org](https://python.org/) to get the latest releases.
 
 #How to install: 
