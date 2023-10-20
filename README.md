@@ -8,7 +8,7 @@ YOU WILL NEED PYTHON 3 AND PIP ALREADY INSTALLED TO USE PIP GUI
 
 Visit [Python.org](https://python.org/) to get the latest releases.
 
-#How to install: 
+# How to install: 
 1. Download the code for your system (Windows or Mac/Linux)
 2. Run the Python script using a Python editor like IDLE or Visual Studio Code.
 
