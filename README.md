@@ -1,8 +1,7 @@
 # Pip-GUI
 Pip GUI is a GUI to interact with pip
 
-Are you someone new to Python?  Or anyone who really just does not want to use terminal install modules?
-The solution is only a few clicks away, with Pip GUI.
+Would you rather not use terminal install modules? Pip GUI may assist you.
 
 # How to use source code: 
 1. Download the code for your system (Windows or Mac/Linux)
