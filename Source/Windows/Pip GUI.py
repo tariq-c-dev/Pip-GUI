@@ -9,7 +9,7 @@ import subprocess
 
 def execute_pip_command(command):
     try:
-        result = subprocess.check_output(f"py -m pip {command}", stderr=subprocess.STDOUT, shell=True, text=True)
+        result = subprocess.check_output(f"python -m pip {command}", stderr=subprocess.STDOUT, shell=True, text=True)
     except subprocess.CalledProcessError as e:
         result = e.output
     output_text.configure(state='normal')
@@ -20,7 +20,7 @@ def execute_pip_command(command):
 def search():
     name = package_entry.get()
     try:
-        result = subprocess.check_output(f"py -m pypisearch {name}", stderr=subprocess.STDOUT, shell=True, text=True)
+        result = subprocess.check_output(f"python -m pypisearch {name}", stderr=subprocess.STDOUT, shell=True, text=True)
     except subprocess.CalledProcessError as e:
         result = e.output
     output_text.configure(state='normal')
