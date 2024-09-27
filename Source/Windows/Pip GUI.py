@@ -1,6 +1,6 @@
 import os
-os.system("py -m pip install tk")
-os.system("py -m pip install pypisearch")
+os.system("python -m pip install tk")
+os.system("python -m pip install pypisearch")
 import tkinter as tk
 from tkinter import ttk
 import subprocess
